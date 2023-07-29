@@ -1,2 +1,1 @@
-# this page contains basic LSGD information
-git 
+# this page contains basic LSGD informatio
