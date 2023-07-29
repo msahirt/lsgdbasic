@@ -1,0 +1,31 @@
+
+body {
+    background-color:beige ;
+    width: 800px;
+    margin: 0 auto;
+  }
+       
+  p {
+    background: rgba(255, 84, 104, 0.3);
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  span {
+    background: white;
+    border: 1px solid black;
+  }
+  .foot
+  {
+    font-style: italic;
+  }
+    table, th, td {
+        border:1px solid black;
+        text-align: center;
+  }
+div{
+  display: inline-block;
+}
+li:nth-child(3n){
+  color:darkmagenta;
+}

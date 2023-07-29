@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="model.css">
+    <title>Application Form</title>
+</head>
+<body>
+   <nav>
+        <a href="./lsgd.html" target="_parent">Home</a>
+        &nbsp;&nbsp;
+        <a href="./application.html">Application Form</a>
+        &nbsp;&nbsp;
+        <a href="./index.html">Start Page</a>
+   </nav> 
+   <form action="#" >
+            <fieldset>
+            <legend>Beneficiary Informations</legend>
+    <div>        
+<label for="Beneficiary">Beneficiary Name</label>
+&nbsp;&nbsp;
+<input type="text" id="Beneficiary">
+    </div>
+    <br>
+    <div>
+        <label for="Father Name">Father Name</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="Father Name">
+    </div><br>
+    <div>
+        <label for="Age">Age</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" min="18" id="Age">
+    </div><br>
+    <div>
+        <label for="Email">Email</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="Email">
+    </div><br>
+    <div>
+        Gender
+        <input name="Gender" type="radio" id="Male">
+        <Label for="Male">Male</Label>
+        <input name="Gender" type="radio" id="Female">
+        <Label for="Female">Female</Label>
+    </div>
+    <br>
+
+    <div>
+        <label for="dob">DOB</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" id="dob">
+    </div><br>
+    <div>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="15" rows="5"></textarea>
+    </div><br>
+    <div>
+    <label for="avatar">Choose a profile picture:</label>
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg,">
+    </div><br>
+    <div>
+        <label for="username">Username:</label>&nbsp;&nbsp;
+        <input type="text" id="username" name="username">
+    </div><br>
+    
+    <div>
+        <label for="pass">Password:</label>&nbsp;&nbsp;
+        <input type="password" id="pass" name="password"
+               minlength="8" required>
+    </div>
+    
+    <input type="submit" value="Sign in">
+</fieldset>
+
+<fieldset>
+    <legend>Enter Your Requirements:</legend>
+
+    <div>
+      <input type="checkbox" id="agri" name="agri" checked>
+      <label for="agri">Agricultural Plans</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="vet" name="vet">
+      <label for="vet">Veterinary Plans</label>
+    </div><br>
+    <label for="cars">Choose Your Plan:</label>
+    <select name="plans" id="plans">
+      <optgroup label="Agricultural Plans">
+        <option value="coconut">Coconut cultivation</option>
+        <option value="Betelvine">Betelvine cultivation</option>
+        <option value="Paddy">Paddy Development</option>
+    </optgroup>
+      <optgroup label="Veterinary Plans">
+        <option value="Mineral">Mineral Mixture Distribution to Cattle</option>
+        <option value="Feed">Feed Distribution </option>
+      </optgroup>
+    </select> <br><br>
+    <div id="button">
+        <button>sign in</button>
+        <input type="submit" value="Submit">
+    </div>
+
+</fieldset>
+   </form>
+</body>
+</html>
